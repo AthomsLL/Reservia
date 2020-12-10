@@ -1,0 +1,97 @@
+/* COLORS 
+Bleu = #0065FC
+Bleu clair = #DEEBFF
+Gris = #F2F2F2
+*/
+
+/* GENERAL */
+*, body, html {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    max-width: 120rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+.heading {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.heading__logo--box {
+    margin-right: auto;
+    padding-left: 1.5rem;
+}
+
+.heading__nav {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    order: 3;
+    width: 100%;
+}
+
+.heading__nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav__accomodations, .nav__activities {
+    padding-bottom: 1.2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.nav__accomodations {
+    border-bottom: .3rem solid #0065FC;
+}
+
+.nav__accomodations a {
+    color: #0065FC;
+}
+
+.nav__activities {
+    border-bottom: .3rem solid #F2F2F2;
+}
+
+.nav__activities a {
+    color: #000;
+}
+
+.nav__activities:hover {
+    border-bottom: .3rem solid #0065FC;
+}
+
+.nav__activities:hover a {
+    color: #0065FC;
+}
+
+.heading__btn {
+    background-color: transparent;
+    border: none;
+    margin-left: 2rem;
+    padding-right: 1.5rem;
+}
+
+.heading__btn a {
+    color: #0065FC;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+/* MAIN */
+
+/* FOOTER */
