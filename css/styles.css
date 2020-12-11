@@ -16,10 +16,12 @@ html {
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
+    margin: 0 auto;
     max-width: 120rem;
 }
 
 a {
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
 
@@ -50,6 +52,7 @@ a {
 }
 
 .nav__accomodations, .nav__activities {
+    font-size: 1.5rem;
     padding-bottom: 1.2rem;
     text-align: center;
     width: 100%;
@@ -89,9 +92,69 @@ a {
 .heading__btn a {
     color: #0065FC;
     font-size: 1.7rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* MAIN */
+.search {
+    padding: 0 1.5rem;
+}
+
+.search__heading {
+    margin-top: 2.5rem;
+    max-width: 80%;
+}
+
+.search__heading--title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.search__heading--subtitle {
+    font-size: 1.45rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.search__input {
+    margin: 2.5rem 0;
+    min-width: 80%;
+    text-align: center;
+}
+
+.search__input .fa-map-marker-alt {
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 30% 0 0 30%;
+    padding: 1.5rem;
+}
+
+.search__input input {
+    border: 1px solid #F2F2F2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-left: -.5rem;
+    margin-top: -.5rem;
+    width: 25rem;
+    padding: 1.3rem 0 1.3rem 1.5rem;
+}
+
+.search__btn {
+    border: none;
+    border-radius: 30%;
+    background-color: #0065FC;
+    font-size: 1.5rem;
+    margin-left: -1.7rem;
+    padding: 1.5rem;
+}
+
+.search__btn .fa-search {
+    color: #fff;
+}
+
+.search__btn .input__research {
+    display: none;
+}
 
 /* FOOTER */
