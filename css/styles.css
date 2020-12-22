@@ -21,8 +21,39 @@ body {
 }
 
 a {
+    color: #000;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    padding: 0;
+}
+
+/* Utils */
+.blue {
+    color: #0065FC;
+}
+
+.grey {
+    color: #F2F2F2;
+}
+
+.bgc-grey {
+    background-color: #F2F2F2;
+}
+
+.bgc-white {
+    background-color: #fff;
+}
+
+.pab-3 {
+    padding-bottom: 3rem;
 }
 
 /* HEADER */
@@ -82,6 +113,8 @@ a {
     color: #0065FC;
 }
 
+.nav__activities:hover a
+
 .heading__btn {
     background-color: transparent;
     border: none;
@@ -96,6 +129,8 @@ a {
 }
 
 /* MAIN */
+
+/* SEARCH SECTION */
 .search {
     padding: 0 1.5rem;
 }
@@ -118,8 +153,6 @@ a {
 
 .search__input {
     margin: 2.5rem 0;
-    min-width: 80%;
-    text-align: center;
 }
 
 .search__input .fa-map-marker-alt {
@@ -136,7 +169,7 @@ a {
     font-weight: 700;
     margin-left: -.5rem;
     margin-top: -.5rem;
-    width: 25rem;
+    width: 26.5rem;
     padding: 1.3rem 0 1.3rem 1.5rem;
 }
 
@@ -155,6 +188,183 @@ a {
 
 .search__btn .input__research {
     display: none;
+}
+
+.filters__title {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.filters__choices {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filters__choices li {
+    border: 2px solid #F2F2F2;
+    border-radius: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.filters__choices li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.filters__choices span {
+    font-weight: 700;
+    padding: 0 1.6rem 0 1rem;
+}
+
+.fa-money-bill-wave, 
+.fa-child, 
+.fa-heart,
+.fa-dog {
+    background-color: #DEEBFF;
+    border-radius: 5rem;
+    margin-left: -.1rem;
+    padding: 1.5rem;
+}
+
+.search__info-result {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.search__info--icon {
+    align-self: flex-start;
+    margin-right: 1rem;
+}
+
+.fa-info {
+    border: 2px solid #F2F2F2;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    padding: .5rem .8rem;
+}
+
+/* ACCOMODATIONS SECTION */
+.most__popular {
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+}
+
+.most__popular--title {
+    display: flex;
+    font-size: 2.2rem;
+    justify-content: space-between;
+}
+
+.most__popular--title h2 {
+    font-weight: 700;
+}
+
+.accomodations__rooms {
+    border-radius: 2rem;
+    box-shadow: 4px 1px 10px rgba(0, 0, 0, .1);
+    display: flex;
+    margin: 1.5rem 2rem;
+}
+
+.accomodations__rooms img {
+    border-radius: 2rem 0 0 2rem;
+    margin: .5rem;
+    height: 14rem;
+    width: 36%;
+    object-fit: cover;
+}
+
+.room-infos {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+}
+
+.room-infos h3 {
+    font-weight: 700;
+}
+
+.room-infos p {
+    margin-top: 1rem;
+}
+
+.stars-icons {
+    margin-top: auto;
+}
+
+.stars-icons .fa-star {
+    font-size: 1.3rem;
+    letter-spacing: -.2rem;
+}
+
+.city__hosts {
+    margin: 3rem 0;
+    padding: 0 2rem;
+}
+
+.city__hosts--title {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.city__hosts--btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    outline: none;
+    padding: 0;
+}
+
+.city__hostels {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.city__hostels a {
+    width: 100%;
+}
+
+.city__rooms {
+    border-radius: 2rem;
+    box-shadow: 4px 1px 10px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.city__rooms img {
+    border-radius: 2rem 2rem 0 0;
+    margin: .5rem;
+    height: 11rem;
+    object-fit: cover;
+}
+
+.city__room-infos {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.city__room-infos h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+} 
+
+.city__room-infos p {
+    margin: .5rem 0;
+}
+
+/* ACTIVITIES SECTION */
+.activities {
+    padding: 0 2rem;
+}
+
+.activities__title {
+    font-size: 2.2rem;
+    font-weight: 700;
 }
 
 /* FOOTER */
