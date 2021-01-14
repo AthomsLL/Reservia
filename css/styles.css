@@ -17,7 +17,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
     margin: 0 auto;
-    max-width: 120rem;
 }
 
 a {
@@ -82,6 +81,10 @@ button {
     justify-content: space-around;
 }
 
+.heading__btn {
+    padding-right: 1.5rem;
+}
+
 .nav__accomodations, .nav__activities {
     font-size: 1.5rem;
     padding-bottom: 1.2rem;
@@ -112,8 +115,6 @@ button {
 .nav__activities:hover a {
     color: #0065FC;
 }
-
-.nav__activities:hover a
 
 .heading__btn {
     background-color: transparent;
@@ -359,12 +360,53 @@ button {
 
 /* ACTIVITIES SECTION */
 .activities {
+    margin-bottom: 5rem;
+    margin-top: 6rem;
     padding: 0 2rem;
 }
 
 .activities__title {
     font-size: 2.2rem;
     font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.activity {
+    border-radius: 2rem;
+    box-shadow: 4px 1px 10px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.activity img {
+    border-radius: 2rem 2rem 0 0;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.activity h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 2rem 1.5rem;
 }
 
 /* FOOTER */
+.footer {
+    background-color: #F2F2F2;
+    padding: 3rem 2rem;
+}
+
+.footer h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.footer ul li {
+    margin-bottom: 1rem;
+}
+
+.about, .our__accomodations {
+    margin-bottom: 3.5rem;
+}
